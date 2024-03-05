@@ -1,0 +1,18 @@
+---
+import MovieSearch from '../components/MovieSearch.jsx';
+import MovieCard from '../components/MovieCard.jsx';
+import React from 'react';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>MovieStreamer</title>
+	</head>
+	<body>
+		<MovieSearch client:load/>
+	</body>
+</html>
